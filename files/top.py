@@ -1,6 +1,6 @@
 import os
-import generalutilities.function_libs.gromacs.parser as parser
-import generalutilities.function_libs.gromacs.gro as gro
+from PyGromacs.files import parser
+from PyGromacs.files import gro
 
 def clean_fields(list):
     """

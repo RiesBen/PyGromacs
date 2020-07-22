@@ -1,8 +1,10 @@
-import generalutilities.function_libs.gromacs.parser as parser
-import generalutilities.function_libs.utils.bash_commands as gf
 import random
 import os
 import re
+
+from PyGromacs.utils import bash as gf
+from PyGromacs.files import parser
+
 
 
 def write_gro_file(gro_dict, path):

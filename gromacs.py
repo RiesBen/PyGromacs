@@ -8,7 +8,7 @@ Author: Benjamin Schroeder
 
 #imports
 import os
-import generalutilities.function_libs.utils.bash_commands as bash
+from PyGromacs.utils import bash
 
 
 def get_gmx(version):

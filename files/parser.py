@@ -8,7 +8,7 @@ Dependencies outside of the code:
 Author: Benjamin Schroeder
 """
 import os
-import generalutilities.function_libs.utils.bash_commands as bash
+from PyGromacs.utils import bash
 
 #______________________________________________________________
 # Workflow_parsing_commandline

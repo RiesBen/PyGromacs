@@ -5,14 +5,15 @@ Description:
 
 Author: Benjamin Schroeder
 """
+
 import glob
 import os
 import random
 
-from generalutilities.function_libs.gromacs import top as top
-from generalutilities.function_libs.utils import bash_commands as bash
-from generalutilities.function_libs.gromacs import parser as parser
-from generalutilities.function_libs.gromacs import gro as gro
+from PyGromacs.files import top
+from PyGromacs.files import parser as parser
+from PyGromacs.files import gro as gro
+from PyGromacs.utils import bash
 
 
 #########################

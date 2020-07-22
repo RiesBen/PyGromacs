@@ -8,7 +8,7 @@ Author: Benjamin Schroeder
 
 #imports
 import os
-import generalutilities.function_libs.utils.bash_commands as bash
+from PyGromacs.utils import bash
 
 #analysis:
 def rmsd_fit(trajectory, reference_structure, fit_to, index_file=False, gmx="gmx",  output=False):
